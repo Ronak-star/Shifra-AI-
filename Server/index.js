@@ -15,7 +15,7 @@ const privateCors =
   cors({
 
     origin: [
-      "http://localhost:5173"
+      "https://shifra-ai-ten.vercel.app"
     ],
 
     credentials: true
