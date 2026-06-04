@@ -283,7 +283,7 @@
                 status.innerText = "Thinking...";
                 
 
-                const res = await fetch("http://localhost:8000/api/assistant/ask" , {
+              const res = await fetch("https://shifra-ai-git-main-ronak-stars-projects.vercel.app/api/assistant/ask" , {
                     method:"POST",
                     headers:{
                         "Content-Type":
