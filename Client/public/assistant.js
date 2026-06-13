@@ -124,7 +124,7 @@
 
     const loadAssistant = async () => {
         try {
-           const res = await fetch(`https://shifra-ai-ten.vercel.app/api/assistant/config/${userId}`)
+           const res = await fetch(`https://shifra-ai-87or.vercel.app/api/assistant/config/${userId}`)
             const data = await res.json()
 
             if (data) {
@@ -283,7 +283,7 @@
                 status.innerText = "Thinking...";
                 
 
-              const res = await fetch("https://shifra-ai-git-main-ronak-stars-projects.vercel.app/api/assistant/ask" , {
+              const res = await fetch("https://shifra-ai-87or.vercel.app/api/assistant/ask" , {
                     method:"POST",
                     headers:{
                         "Content-Type":
